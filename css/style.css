@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-container {
+    width: 100%;
+    background-image: url(../image/home-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    background-color: chocolate;
+}
+
+.font1 {
+    font-family: 'Pacifico', cursive;
+}
+
+.fs {
+    font-size: 6rem;
+}
+
+.pt {
+    padding-top: 35%;
+}
+
+.color {
+    color: white;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+}
