@@ -48,6 +48,10 @@
     padding-top: 35%;
 }
 
+.hgt {
+    height: 100%;
+}
+
 .color {
     color: white;
 }
@@ -63,21 +67,23 @@
 
 
 .about-image {
+    height: 100%;
     background-image: url(../image/chefs.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     
 }
 
 .about-image:hover{
     transform: scale(1.1);
-    transition-delay: 0.7s;
+    transition-delay: 0.4s;
 }
 
 
 .about-text {
     color: rgb(109, 6, 6);
-    margin-top: 10%;
+    margin-top: 0;
     padding: 40px 40px 0 40px;
     text-align: center;
  
@@ -136,5 +142,53 @@
     width: 50%;
     text-align: center;
     flex-direction: column;
-    padding-left: 40px;
+    padding: 40px 0 0 60px;
+}
+
+@media (max-width: 1025px) {
+    .about {
+        height: 117vh !important;
+    }
+    .about-image {
+        background-position: 60% 50%;
+    } 
+    .service-text h2 {
+        font-size: 5rem;
+    }
+
+
+}
+
+@media (max-width: 769px) {
+    .about {
+        height: 117vh !important;
+    }
+    .about-image {
+        background-position: 60% 50%;
+    }
+    .about-text h1 {
+        font-size: 3rem;
+    }
+    .about-text p {
+        font-size: 1rem !important;
+    }
+    .contact-text {
+        width: 60%;
+        padding-left: 30px;
+    }
+    .contact-text h2 {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 426px) {
+    .column {
+        display: block !important;
+    }
+    .vh {
+        height: 210vh !important;
+    }
+    .wdt {
+        width: 100%;
+    }
 }
