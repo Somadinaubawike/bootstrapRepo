@@ -145,6 +145,17 @@
     padding: 40px 0 0 60px;
 }
 
+.school {
+    background-image: url(../image/cake-gallery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.school-ad {
+    width: 250px;
+    border: 1px solid rgb(43, 42, 42);
+}
+
 @media (max-width: 1025px) {
     .about {
         height: 117vh !important;
@@ -190,5 +201,8 @@
     }
     .wdt {
         width: 100%;
+    }
+    .fs {
+        font-size: 4.5rem;
     }
 }
